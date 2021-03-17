@@ -1,6 +1,7 @@
 <component name="ProjectRunConfigurationManager">
   <configuration default="false" name="Run all Tests" type="JUnit" factoryName="JUnit">
     <module name="unittesting-getting-started" />
+    <extension name="coverage" sample_coverage="false" />
     <option name="PACKAGE_NAME" value="de.db.systel.lami.unittesting" />
     <option name="MAIN_CLASS_NAME" value="" />
     <option name="METHOD_NAME" value="" />
