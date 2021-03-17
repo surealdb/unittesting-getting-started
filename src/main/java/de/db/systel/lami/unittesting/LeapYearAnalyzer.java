@@ -2,7 +2,7 @@ package de.db.systel.lami.unittesting;
 
 public class LeapYearAnalyzer {
 
-    public static boolean isLeapYear(int year) {
+    public boolean isLeapYear(int year) {
         if (year % 4 == 0) {
             if (year % 100 == 0 && year % 400 == 0) {
                 return true;
@@ -15,4 +15,5 @@ public class LeapYearAnalyzer {
         }
         return false;
     }
+    
 }
