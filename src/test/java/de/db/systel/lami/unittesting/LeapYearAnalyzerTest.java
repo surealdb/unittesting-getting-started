@@ -5,7 +5,7 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
-
+import static org.assertj.core.api.Assertions.*;
 class LeapYearAnalyzerTest {
 
     @BeforeEach
@@ -18,5 +18,6 @@ class LeapYearAnalyzerTest {
 
     @Test
     void isLeapYear() {
+        // siehe https://assertj.github.io/doc/
     }
 }
