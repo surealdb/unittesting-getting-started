@@ -14,11 +14,13 @@
         <maven.compiler.source>11</maven.compiler.source>
         <maven.compiler.target>11</maven.compiler.target>
 
-        <junit.jupiter.version>5.5.2</junit.jupiter.version>
-        <junit.platform.version>1.5.2</junit.platform.version>
+        <junit.jupiter.version>5.8.2</junit.jupiter.version>
+        <junit.platform.version>1.8.2</junit.platform.version>
+        <!-- use AssertJ 2.9.1 for Java 7 projects -->
+        <assertj-core.version>3.22.0</assertj-core.version>
     </properties>
 
-    <!-- Qulle: https://howtodoinjava.com/junit5/junit5-maven-dependency/ -->
+    <!-- see: https://howtodoinjava.com/junit5/junit5-maven-dependency/ -->
     <dependencies>
         <dependency>
             <groupId>org.junit.jupiter</groupId>
@@ -35,8 +37,7 @@
         <dependency>
             <groupId>org.assertj</groupId>
             <artifactId>assertj-core</artifactId>
-            <!-- use 2.9.1 for Java 7 projects -->
-            <version>3.19.0</version>
+            <version>${assertj-core.version}</version>
             <scope>test</scope>
         </dependency>
     </dependencies>
