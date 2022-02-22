@@ -4,6 +4,7 @@
 
 ### Intellij ###
 .idea/*
+*.iml
 
 ### Java ###
 # Compiled class file
